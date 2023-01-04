@@ -3,9 +3,7 @@ import Login from "./pages/login/index";
 import Users from "./pages/dashboard/index";
 import UserProfile from "./pages/users/index";
 
-
 function App() {
-
   return (
     <Routes>
       <Route path="/" element={<Login />} />
@@ -14,5 +12,4 @@ function App() {
     </Routes>
   )
 }
-
 export default App
